@@ -1,0 +1,61 @@
+baseURL = "https://example.org/"
+title = "EA1PYM"
+theme = "hugo-theme-cleanwhite"
+languageCode = "es-es"
+defaultContentLanguage = "es"
+preserveTaxonomyNames = true
+
+[pagination]
+  pagerSize = 8
+
+[outputs]
+  home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "img/home-bg.jpg"
+  SEOTitle = "EA1PYM | Radio, RF y homelab"
+  description = "Artículos de radioafición, RF y proyectos de red doméstica."
+  keyword = "EA1PYM, radioafición, RF, SDR, antenas, homelab, MikroTik, WireGuard, Proxmox"
+  slogan = "Radio, RF y homelab"
+  upstreamAttribution = true
+  image_404 = "img/404-bg.jpg"
+  title_404 = "Aquí no hay señal :("
+  omit_categories = false
+  page_view_counter = false
+  algolia_search = false
+  sidebar_about_description = "Radioaficionado. Escribo sobre RF, antenas y la red de casa."
+  featured_tags = true
+  featured_condition_size = 1
+  reward = false
+  friends = false
+  bookmarks = false
+  about_me = true
+  last_posts = true
+  last_posts_title = "ÚLTIMOS ARTÍCULOS"
+  last_posts_count = 5
+
+  [params.social]
+    rss = true
+
+  [[params.additional_menus]]
+    title = "ARCHIVO"
+    href = "/archive/"
+  [[params.additional_menus]]
+    title = "SOBRE MÍ"
+    href = "/about/"
+
+[outputFormats.Algolia]
+  baseName = "algolia"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
+
+[params.algolia]
+  vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+  params = ["categories", "tags"]
+
+[markup]
+  [markup.highlight]
+    style = "github"
+  [markup.goldmark.renderer]
+    unsafe = true
