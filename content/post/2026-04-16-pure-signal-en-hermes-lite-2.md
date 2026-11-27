@@ -5,8 +5,8 @@ date: 2026-04-16T19:17:15.555Z
 author: "EA1PYM"
 layout: "post"
 url: "/p/pure-signal-en-hermes-lite-2/"
-image: "img/post-bg.jpg"
-tags: []
+image: "img/home-bg.jpg"
+tags: ["hermes-lite-2", "sdr", "puresignal", "dsp"]
 categories: ["Radio"]
 ---
 Una de las ventajas de operar con un equipo SDR es disponer de un panadapter en la pantalla de nuestro ordenador, permitiéndonos visualizar el espectro en tiempo real con alta resolución. Esta capacidad, más allá de lo meramente descriptivo, aporta una ventaja clara: facilita identificar de forma inmediata si una señal está correctamente transmitida o presenta problemas de calidad.

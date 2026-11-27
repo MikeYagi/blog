@@ -5,9 +5,9 @@ date: 2026-11-14T12:22:37.364Z
 author: "EA1PYM"
 layout: "post"
 url: "/p/tunel-vpn-wireguard-entre-routers/"
-image: "img/post-bg.jpg"
-tags: []
-categories: ["Radio"]
+image: "img/home-bg.jpg"
+tags: ["wireguard", "mikrotik", "vpn", "estacion-remota", "hermes-lite-2"]
+categories: ["Redes"]
 ---
 ## Introducción
 
