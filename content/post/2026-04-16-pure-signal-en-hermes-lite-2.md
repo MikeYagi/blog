@@ -5,7 +5,7 @@ date: 2026-04-16T19:17:15.555Z
 author: "EA1PYM"
 layout: "post"
 url: "/p/pure-signal-en-hermes-lite-2/"
-image: "img/home-bg.jpg"
+image: "img/post-bg.jpg"
 tags: ["hermes-lite-2", "sdr", "puresignal", "dsp"]
 categories: ["Radio"]
 ---

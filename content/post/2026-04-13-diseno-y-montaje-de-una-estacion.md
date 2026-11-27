@@ -5,7 +5,7 @@ date: 2026-04-13T10:22:22.528Z
 author: "EA1PYM"
 layout: "post"
 url: "/p/diseno-y-montaje-de-una-estacion/"
-image: "img/home-bg.jpg"
+image: "img/post-bg.jpg"
 tags: ["hermes-lite-2", "sdr", "estacion-remota", "thetis"]
 categories: ["Radio"]
 ---

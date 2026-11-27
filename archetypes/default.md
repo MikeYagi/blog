@@ -4,7 +4,7 @@ subtitle: ""
 date: {{ .Date }}
 author: "EA1PYM"
 layout: "post"
-image: "img/home-bg.jpg"
+image: "img/post-bg.jpg"
 tags: []
 categories: []
 draft: true
